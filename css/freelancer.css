@@ -30,7 +30,7 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
-hr.star-light,
+hr.star-light, 
 hr.star-primary {
   padding: 0;
   border: none;
@@ -67,8 +67,10 @@ hr.star-primary:after {
   margin: 0 auto;
 }
 header {
+  background: linear-gradient(to bottom right, black, red, orange, yellow, green, blue, violet);
+  background: linear-gradient(top left, black, red, orange, yellow, green, blue, violet);
   text-align: center;
-  background: #B284BE;
+  /**background: #B284BE; */
   color: white;
 }
 header .container {
@@ -181,7 +183,9 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #B284BE;
+  /**background: #B284BE;*/
+  background: linear-gradient(to bottom right, black, red, orange, yellow, green, blue, violet);
+  background: linear-gradient(top left, black, red, orange, yellow, green, blue, violet);
   color: white;
 }
 @media (max-width: 767px) {
