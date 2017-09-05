@@ -68,6 +68,7 @@ hr.star-primary:after {
 }
 header {
   background: linear-gradient(to bottom right, black, red, orange, yellow, green, blue, violet);
+  background: linear-gradient(top left, black, red, orange, yellow, green, blue, violet);
   text-align: center;
   /**background: #B284BE; */
   color: white;
@@ -184,6 +185,7 @@ section h2 {
 section.success {
   /**background: #B284BE;*/
   background: linear-gradient(to bottom right, black, red, orange, yellow, green, blue, violet);
+  background: linear-gradient(top left, black, red, orange, yellow, green, blue, violet);
   color: white;
 }
 @media (max-width: 767px) {
