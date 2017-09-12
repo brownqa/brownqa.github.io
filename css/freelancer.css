@@ -70,7 +70,9 @@ header {
   /*background: linear-gradient(to bottom right, black, red, orange, yellow, green, blue, violet);*/
   /*background: linear-gradient(top left, black, red, orange, yellow, green, blue, violet);*/
   text-align: center;
-  background: #B284BE;
+  /*background: #B284BE; */
+  background-image: linear-gradient(bottom, #B284BE 0%, #ffb547 100%), linear-gradient(bottom, #ff8b01 0%, #ffb547 100%);
+  background-image: linear-gradient(to top, #B284BE 0%, #ffb547 100%), linear-gradient(to top, #ff8b01 0%, #ffb547 100%);
   color: white;
 }
 header .container {
